@@ -1,0 +1,1 @@
+df[ df['TYPE'] == 'Homicide' ].groupby( ['YEAR', 'NEIGHBOURHOOD'] ).count()['TYPE'].sort_values(ascending=False).head(1)

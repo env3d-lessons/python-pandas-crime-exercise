@@ -1,0 +1,1 @@
+df.groupby('NEIGHBOURHOOD').count()['TYPE'].sort_values(ascending=False).head(1).reset_index()['NEIGHBOURHOOD']

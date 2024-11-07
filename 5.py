@@ -1,0 +1,1 @@
+df[ df['TYPE'] == 'Homicide' ].sort_values( ['YEAR','MONTH','DAY' ], ascending=False ).head(1)['NEIGHBOURHOOD']
