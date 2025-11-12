@@ -1,1 +1,3 @@
-df['TYPE'].unique()
+import pandas
+df = pandas.read_csv('crime.csv')
+print(df['TYPE'].unique())
